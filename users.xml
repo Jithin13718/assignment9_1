@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="users.xsl"?>
+<university>
+    <user>
+        <id>1</id>
+        <name>P.Jithinvas</name>
+        <role>Student</role>
+        <department>Computer Science</department>
+        <email>jpentako3@gitam.edu</email>
+    </user>
+    <user>
+        <id>2</id>
+        <name>Salaar</name>
+        <role>Faculty</role>
+        <department>Mathematics</department>
+        <email>Salaar@gitam.edu</email>
+    </user>
+    <user>
+        <id>3</id>
+        <name>Manjunadh</name>
+        <role>Student</role>
+        <department>Physics</department>
+        <email>Katraj@gitam.edu</email>
+    </user>
+    <user>
+        <id>4</id>
+        <name>Siva Sujan</name>
+        <role>Faculty</role>
+        <department>History</department>
+        <email>Penguin@gitam.edu</email>
+    </user>
+    <user>
+        <id>5</id>
+        <name>Anish</name>
+        <role>Student</role>
+        <department>Chemistry</department>
+        <email>Pulihora@gitam.edu</email>
+    </user>
+    <user>
+        <id>6</id>
+        <name>Jagadeesh</name>
+        <role>Faculty</role>
+        <department>C</department>
+        <email>jagadeesh@gitam.edu</email>
+    </user>
+    <user>
+        <id>7</id>
+        <name>George Antony</name>
+        <role>Student</role>
+        <department>Economics</department>
+        <email>georgeantony@gitam.edu</email>
+    </user>
+    <user>
+        <id>8</id>
+        <name>Hannah Davis</name>
+        <role>Faculty</role>
+        <department>English</department>
+        <email>hannah@gitam.edu</email>
+    </user>
+    <user>
+        <id>9</id>
+        <name>Charan</name>
+        <role>Student</role>
+        <department>Engineering</department>
+        <email>Charan@gitam.edu</email>
+    </user>
+    <user>
+        <id>10</id>
+        <name>RRR</name>
+        <role>Faculty</role>
+        <department>Philosophy</department>
+        <email>RRR@gitam.edu</email>
+    </user>
+</university>
