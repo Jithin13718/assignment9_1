@@ -22,8 +22,6 @@ fetch("users.xml")
 
     const users = xml.getElementsByTagName("user");
     const table = document.getElementById("table");
-
-    // Table header
     table.innerHTML = `
         <tr>
             <th>ID</th>
@@ -33,15 +31,12 @@ fetch("users.xml")
             <th>Email</th>
         </tr>
     `;
-
-    // Loop through <user> elements
     for (let i = 0; i < users.length; i++) {
         const id = users[i].getElementsByTagName("id")[0].textContent;
         const name = users[i].getElementsByTagName("name")[0].textContent;
         const role = users[i].getElementsByTagName("role")[0].textContent;
         const department = users[i].getElementsByTagName("department")[0].textContent;
         const email = users[i].getElementsByTagName("email")[0].textContent;
-
         table.innerHTML += `
             <tr>
                 <td>${id}</td>
